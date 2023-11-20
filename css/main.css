@@ -54,14 +54,16 @@
 
 .btn {
   cursor: pointer;
-  border: 10px solid rgb(255, 255, 255);
-  width: 210px;
+  position: relative;
+  width: 190px;
   padding: 19px 42px 19px 42px;
-  background-color: rgb(156, 211, 163);
+  background-color: rgb(92, 205, 106);
   text-transform: uppercase;
-  border-radius: 23px;
+  border-radius: 17px;
   letter-spacing: 2px;
   color: rgb(255, 255, 255);
+  border: none;
+  transition: all 0.1s ease-in-out;
 }
 .btn:hover {
   background-color: rgb(84, 225, 101);
@@ -71,9 +73,149 @@
 }
 .btn-header__right {
   position: absolute;
-  right: 38px;
+  right: 52px;
+}
+
+.btn::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  top: -9px;
+  left: -9px;
+  width: 208px;
+  height: 75px;
+  border: 10px solid rgba(255, 255, 255, 0.45);
 }
 
 .main {
   position: relative;
-} /*# sourceMappingURL=main.css.map */
+}
+.main-text {
+  max-width: 511px;
+  display: flex;
+  flex-direction: column;
+  padding-top: 67px;
+  margin-left: 94px;
+}
+.main__title {
+  font-family: ruberoid, sans-serif;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 74px;
+  color: #495E4C;
+}
+.main__title_line {
+  color: #495E4C;
+  display: block;
+  position: relative;
+  right: -190px;
+  font-family: ruberoid, sans-serif;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 74px;
+}
+.main__title_line::after {
+  content: "";
+  position: absolute;
+  left: -194px;
+  top: 38px;
+  height: 3px;
+  border-radius: 1.5px;
+  width: 148px;
+  background-color: #78C081;
+}
+.main__name {
+  margin-top: 5px;
+  text-transform: uppercase;
+  font-family: ruberoid, sans-serif;
+  font-weight: 400;
+  font-size: 63px;
+  line-height: 74px;
+  color: #78C081;
+  letter-spacing: 1.6px;
+}
+.main__description {
+  margin-top: 30px;
+  display: flex;
+}
+.main__description_img {
+  position: relative;
+  top: -17px;
+  margin-right: 10px;
+}
+.main__description_img:last-child {
+  margin-right: 12px;
+}
+.main__description_text {
+  width: 453px;
+  font-size: 22px;
+  line-height: 32px;
+  color: #7CA381;
+}
+.main__contacts {
+  margin-top: 49px;
+  margin-left: 8px;
+  display: flex;
+}
+.main__contacts_street, .main__contacts_call {
+  display: flex;
+}
+.main__contacts_call {
+  margin-left: 73px;
+}
+.main__street_mark, .main__call_phone {
+  width: 32px;
+  height: 32px;
+  margin-top: 8px;
+}
+.main__call_phone {
+  margin-right: 22px;
+}
+.main__street_name {
+  margin-left: 20px;
+  max-width: 158px;
+  font-size: 16px;
+  line-height: 24px;
+  color: rgb(123, 137, 125);
+}
+.main__call_text {
+  color: rgb(123, 137, 125);
+  font-size: 15px;
+  line-height: 24px;
+}
+.main__call_text:last-child {
+  margin-left: 0px;
+}
+.main .btn-application {
+  border: none;
+  position: relative;
+  margin-left: 12px;
+  margin-top: 79px;
+  font-size: 17px;
+  line-height: 23px;
+  letter-spacing: 2.9px;
+  color: rgb(255, 255, 255);
+  width: 448px;
+  border-radius: 30px;
+  padding: 32px;
+  background-color: rgb(92, 205, 106);
+  transition: all 0.1s ease-in;
+}
+.main .btn-application::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: -13px;
+  left: -14px;
+  border-radius: 40px;
+  width: 476px;
+  height: 112px;
+  border: 15px solid rgba(120, 192, 129, 0.25);
+}
+.main .btn-application:hover {
+  background-color: rgb(84, 225, 101);
+}
+.main .btn-application:active {
+  background-color: rgb(92, 205, 106);
+}/*# sourceMappingURL=main.css.map */

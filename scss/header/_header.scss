@@ -61,14 +61,18 @@
 
 .btn {
     cursor: pointer;
-    border: 10px solid rgba(255, 255, 255, 1);
-    width: 210px;
+    position: relative;
+    width: 190px;
     padding: 19px 42px 19px 42px;
-    background-color: rgba(156, 211, 163, 1);
+    background-color: rgba(92, 205, 106, 1);
     text-transform: uppercase;
-    border-radius: 23px;
+    border-radius: 17px;
     letter-spacing: 2px;
     color: rgba(255, 255, 255, 1);
+    border: none;
+    transition: all .1s ease-in-out;
+
+
 
     &:hover {
         background-color: rgba(84, 225, 101, 1);
@@ -80,8 +84,20 @@
 
     &-header__right {
         position: absolute;
-        right: 38px;
+        right: 52px;
     }
+}
+
+.btn::before {
+    content: "";
+    display: block;
+    position: absolute;
+    border-radius: 25px;
+    top: -9px;
+    left: -9px;
+    width: 208px;
+    height: 75px;
+    border: 10px solid rgba(255, 255, 255, .45);
 }
 
 .main {
@@ -158,7 +174,84 @@
         color: #7CA381;
     }
 
-    &__contacts {}
+    &__contacts {
+        margin-top: 49px;
+        margin-left: 8px;
+        display: flex;
+    }
 
-    &__contacts_street {}
+    &__contacts_street,
+    &__contacts_call {
+        display: flex;
+    }
+
+    &__contacts_call {
+        margin-left: 73px;
+    }
+
+    &__street_mark,
+    &__call_phone {
+        width: 32px;
+        height: 32px;
+        margin-top: 8px;
+    }
+
+    &__call_phone {
+        margin-right: 22px;
+    }
+
+    &__street_name {
+        margin-left: 20px;
+        max-width: 158px;
+        font-size: 16px;
+        line-height: 24px;
+        color: rgba(123, 137, 125, 1);
+    }
+
+    &__call_text {
+        color: rgba(123, 137, 125, 1);
+        font-size: 15px;
+        line-height: 24px;
+    }
+
+    &__call_text:last-child {
+        margin-left: 0px;
+    }
+
+    .btn-application {
+        border: none;
+        position: relative;
+        margin-left: 12px;
+        margin-top: 79px;
+        font-size: 17px;
+        line-height: 23px;
+        letter-spacing: 2.9px;
+        color: rgba(255, 255, 255, 1);
+        width: 448px;
+        border-radius: 30px;
+        padding: 32px;
+        background-color: rgba(92, 205, 106, 1);
+        transition: all .1s ease-in;
+    }
+
+    .btn-application::before {
+        content: "";
+        display: block;
+        position: absolute;
+        top: -13px;
+        left: -14px;
+        border-radius: 40px;
+        width: 476px;
+        height: 112px;
+        border: 15px solid rgba(120, 192, 129, 0.25);
+    }
+
+    .btn-application:hover {
+        background-color: rgba(84, 225, 101, 1);
+    }
+
+    .btn-application:active {
+        background-color: rgba(92, 205, 106, 1);
+    }
+
 }
