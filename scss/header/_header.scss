@@ -108,7 +108,7 @@
         display: flex;
         flex-direction: column;
         padding-top: 67px;
-        margin-left: 94px;
+        margin-left: 90px;
     }
 
     &__title {
@@ -153,21 +153,24 @@
     }
 
     &__description {
-        margin-top: 30px;
+        margin-top: 15px;
         display: flex;
+        align-items: center;
     }
 
-    &__description_img {
+    &__description-img {
         position: relative;
         top: -17px;
-        margin-right: 10px;
+        margin-right: 8px;
+        width: 10px;
+        height: 10px;
     }
 
-    &__description_img:last-child {
+    &__description-img:last-child {
         margin-right: 12px;
     }
 
-    &__description_text {
+    &__description-text {
         width: 453px;
         font-size: 22px;
         line-height: 32px;
@@ -180,27 +183,27 @@
         display: flex;
     }
 
-    &__contacts_street,
-    &__contacts_call {
+    &__contacts-street,
+    &__contacts-call {
         display: flex;
     }
 
-    &__contacts_call {
-        margin-left: 73px;
+    &__contacts-call {
+        margin-left: 35px;
     }
 
-    &__street_mark,
-    &__call_phone {
+    &__street-mark,
+    &__call-phone {
         width: 32px;
         height: 32px;
         margin-top: 8px;
     }
 
-    &__call_phone {
+    &__call-phone {
         margin-right: 22px;
     }
 
-    &__street_name {
+    &__street-name {
         margin-left: 20px;
         max-width: 158px;
         font-size: 16px;
@@ -208,13 +211,17 @@
         color: rgba(123, 137, 125, 1);
     }
 
-    &__call_text {
+    &__call-text {
         color: rgba(123, 137, 125, 1);
         font-size: 15px;
         line-height: 24px;
     }
 
-    &__call_text:last-child {
+    &__call-text:hover {
+        color: rgba(107, 154, 114, 1);
+    }
+
+    &__call-text:last-child {
         margin-left: 0px;
     }
 
