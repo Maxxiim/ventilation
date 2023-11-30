@@ -370,4 +370,118 @@
   color: rgb(124, 162, 129);
   writing-mode: vertical-lr;
   transform: rotate(180deg);
+}
+
+.solutions {
+  margin-bottom: 72px;
+  position: relative;
+}
+.solutions__background {
+  position: relative;
+}
+.solutions__background-lungs {
+  position: absolute;
+  top: 88px;
+  left: -197px;
+  height: 460px;
+}
+.solutions-leaves1 {
+  position: absolute;
+  top: 132px;
+  right: 86px;
+  margin: 0;
+}
+.solutions-leaves2 {
+  position: absolute;
+  margin: 0;
+  top: 341px;
+  right: 0;
+}
+.solutions-leaveleft1 {
+  position: absolute;
+  top: 360px;
+  left: 387px;
+}
+.solutions-leaveleft2 {
+  position: absolute;
+  top: 372px;
+  left: 481px;
+}
+.solutions-leaveleft3 {
+  position: absolute;
+  top: 472px;
+  left: 443px;
+}
+.solutions-leaveright1 {
+  position: absolute;
+  top: 236px;
+  right: 1px;
+}
+.solutions-leaveright2 {
+  position: absolute;
+  top: 222px;
+  right: 57px;
+}
+.solutions-title {
+  position: relative;
+  letter-spacing: 0.3px;
+  margin-left: 91px;
+  margin-top: 162px;
+  max-width: 867px;
+  font-size: 45px;
+  font-family: "ruberoid", sans-serif;
+  line-height: 60px;
+  color: rgb(73, 94, 76);
+}
+.solutions__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 34px 47px;
+  align-items: flex-start;
+}
+.solutions__block {
+  position: relative;
+  margin-top: 94px;
+  margin-left: 89px;
+}
+.solutions__list-item {
+  cursor: pointer;
+  display: block;
+  box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.1);
+  background-color: #fff;
+  position: relative;
+  max-width: 257px;
+  border-radius: 25px;
+}
+.solutions__list-img {
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.solutions__list-count {
+  display: block;
+  position: absolute;
+  top: 15px;
+  left: 0;
+  color: rgb(73, 93, 76);
+  font-size: 15px;
+  line-height: 18px;
+  font-weight: 600;
+  max-width: 123px;
+  padding: 6px 16px;
+  background-color: rgb(217, 250, 221);
+  border-radius: 4px 10px 10px 0;
+}
+.solutions__list-title {
+  font-weight: 400;
+  display: block;
+  max-width: 218px;
+  font-size: 16px;
+  font-family: "ruberoid", sans-serif;
+  color: rgb(120, 192, 129);
+  padding-left: 16px;
+  padding-bottom: 13px;
+}
+.solutions__list-title:hover {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
