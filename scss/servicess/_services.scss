@@ -14,7 +14,7 @@
         margin-left: 45px;
     }
 
-    &__description-title {
+    &__description_title {
         position: relative;
         font-family: 'ruberoid', sans-serif;
         max-width: 444px;
@@ -24,7 +24,7 @@
         margin-bottom: 26px;
     }
 
-    &__description-title::before {
+    &__description_title::before {
         content: "";
         position: absolute;
         border-radius: 1.5px;
@@ -35,7 +35,7 @@
         background-color: rgba(120, 192, 129, 1);
     }
 
-    &__description-text {
+    &__description_text {
         padding: 0;
         width: 444px;
         font-size: 16px;
@@ -44,7 +44,7 @@
         margin-bottom: 26px;
     }
 
-    &__description-text:last-child {
+    &__description_text:last-child {
         margin-bottom: 0;
     }
 
@@ -65,33 +65,33 @@
         margin-left: 39px;
     }
 
-    &__type_list-item {
+    &__type_list_item {
         display: flex;
         margin-bottom: 21px;
     }
 
-    &__type_list-img {
+    &__type_list_img {
         width: 34px;
         height: 34px;
         border-radius: 10px;
         margin-right: 15px;
     }
 
-    &__type_list-text {
+    &__type_list_text {
         max-width: 307px;
         font-size: 20px;
         line-height: 32px;
         color: rgba(73, 93, 76, 1);
     }
 
-    &__type_block-img {
+    &__type_block_img {
         border-radius: 65px 0 0 65px;
         position: absolute;
         top: -120px;
         right: 0px;
     }
 
-    &__type_ventilation-decor {
+    &__type_ventilation_decor {
         position: absolute;
         top: 86px;
         left: -74px;
@@ -106,7 +106,7 @@
         transition: all .2s ease-in-out;
     }
 
-    &__type_ventilation-img {
+    &__type_ventilation_img {
         // fill: rgba(124, 162, 129, 1);
         fill: rgba(255, 255, 255, 1);
         position: absolute;
@@ -114,7 +114,7 @@
         left: 15px;
     }
 
-    &__type_ventilation-text {
+    &__type_ventilation_text {
         height: 135px;
         max-width: 135px;
         position: absolute;
@@ -130,7 +130,7 @@
 
     // services__type_conditioning start
 
-    &__type_conditioning-decor {
+    &__type_conditioning_decor {
         position: absolute;
         top: 326px;
         left: -74px;
@@ -144,7 +144,7 @@
         transition: all .2s ease-in-out;
     }
 
-    &__type_conditioning-img {
+    &__type_conditioning_img {
         height: 34px;
         width: 34px;
         fill: rgba(124, 162, 129, 1);
@@ -154,7 +154,7 @@
         left: 15px;
     }
 
-    &__type_conditioning-text {
+    &__type_conditioning_text {
         height: 135px;
         max-width: 135px;
         position: absolute;

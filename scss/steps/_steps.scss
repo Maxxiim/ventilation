@@ -1,0 +1,139 @@
+.steps {
+    margin-left: 174px;
+    margin-bottom: 300px;
+
+    &__wrapper {
+        display: flex;
+    }
+
+    &__wrapper_title {
+        font-family: "ruberoid", sans-serif;
+        color: rgba(73, 94, 76, 1);
+        position: relative;
+        font-size: 45px;
+        line-height: 63px;
+        max-width: 530px;
+        font-weight: 400;
+    }
+
+    &__wrapper_title::after {
+        position: absolute;
+        top: 30px;
+        right: 8px;
+        content: "";
+        height: 2px;
+        background-color: rgba(120, 192, 129, 1);
+        width: 100px;
+        border-radius: 1.5px;
+    }
+
+    &__bonuses {
+        margin-top: 2px;
+        margin-left: 88px;
+    }
+
+    &__bonuses_title {
+        max-width: 279px;
+        margin-bottom: 20px;
+        margin-left: 0;
+        font-family: "ruberoid", sans-serif;
+        font-size: 26px;
+        line-height: 26px;
+        color: rgba(120, 192, 129, 1);
+    }
+
+    &__bonuses_item {
+        display: flex;
+        max-width: 569px;
+        margin-bottom: 10px;
+        line-height: 20px;
+        color: rgba(124, 163, 129, 1);
+    }
+
+    &__bonuses_item:last-child {
+        margin-bottom: 0;
+    }
+
+    &__bonuses_item::before {
+        content: "";
+    }
+
+    &__bonuses_ventilation {
+        height: 17px;
+        width: 17px;
+        margin-right: 10px;
+    }
+
+    &__block {
+        position: relative;
+        margin-left: -79px;
+        margin-top: 88px;
+    }
+
+    &__block_vector1 {
+        margin: 0;
+        position: absolute;
+        top: 26px;
+        left: -12px;
+    }
+
+    &__block_vector2 {
+        margin: 0;
+        position: absolute;
+        top: 20px;
+        left: 369px;
+    }
+
+    &__block_vector3 {
+        margin: 0;
+        position: absolute;
+        top: 69px;
+        right: 369px;
+    }
+
+    &__block_vector4 {
+        margin: 0;
+        position: absolute;
+        top: -19px;
+        right: 0;
+    }
+
+    &__block_list {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    &__block_elipse {
+        text-align: center;
+        position: relative;
+        margin-right: 300px;
+        width: 100px;
+        height: 100px;
+        background-color: rgba(217, 250, 221, 1);
+        border-radius: 50%;
+    }
+
+    &__block_elipse:last-child {
+        margin-right: 0;
+    }
+
+    &__block_text {
+        margin: 0;
+        margin-top: 170px;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 29px;
+        color: rgba(73, 94, 76, 1);
+        min-width: 165px;
+        max-width: 200px;
+    }
+
+    &__block_img {
+        width: 50px;
+        height: 50px;
+        position: absolute;
+        top: 26px;
+        right: 24px;
+    }
+}

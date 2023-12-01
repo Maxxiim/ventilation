@@ -8,52 +8,52 @@
         position: relative;
     }
 
-    &__background-lungs {
+    &__background_lungs {
         position: absolute;
         top: 88px;
         left: -197px;
         height: 460px;
     }
 
-    &-leaves1 {
+    &_leaves1 {
         position: absolute;
         top: 132px;
         right: 86px;
         margin: 0;
     }
 
-    &-leaves2 {
+    &_leaves2 {
         position: absolute;
         margin: 0;
         top: 341px;
         right: 0;
     }
 
-    &-leaveleft1 {
+    &_leaveleft1 {
         position: absolute;
         top: 360px;
         left: 387px;
     }
 
-    &-leaveleft2 {
+    &_leaveleft2 {
         position: absolute;
         top: 372px;
         left: 481px;
     }
 
-    &-leaveleft3 {
+    &_leaveleft3 {
         position: absolute;
         top: 472px;
         left: 443px;
     }
 
-    &-leaveright1 {
+    &_leaveright1 {
         position: absolute;
         top: 236px;
         right: 1px;
     }
 
-    &-leaveright2 {
+    &_leaveright2 {
         position: absolute;
         top: 222px;
         right: 57px;
@@ -61,7 +61,7 @@
 
     // 
 
-    &-title {
+    &_title {
         position: relative;
         letter-spacing: 0.3px;
         margin-left: 91px;
@@ -98,7 +98,7 @@
         margin-left: 89px;
     }
 
-    &__list-item {
+    &__list_item {
         cursor: pointer;
         display: block;
         box-shadow: 0px 0px 10px 0px rgba(73, 93, 76, 0.1);
@@ -108,12 +108,12 @@
         border-radius: 25px;
     }
 
-    &__list-img {
+    &__list_img {
         background-repeat: no-repeat;
         background-size: cover;
     }
 
-    &__list-count {
+    &__list_count {
         display: block;
         position: absolute;
         top: 15px;
@@ -128,7 +128,7 @@
         border-radius: 4px 10px 10px 0;
     }
 
-    &__list-title {
+    &__list_title {
         font-weight: 400;
         display: block;
         max-width: 218px;
@@ -139,7 +139,7 @@
         padding-bottom: 13px;
     }
 
-    &__list-title:hover {
+    &__list_title:hover {
         color: black;
     }
 

@@ -26,11 +26,11 @@
     }
 }
 
-.header-main {
+.header__main {
     display: flex;
     align-items: center;
 
-    &__logo {
+    &_logo {
         max-width: 196px;
         background-size: cover;
         margin-right: 156px;
@@ -40,7 +40,7 @@
 .nav__list {
     display: flex;
 
-    &-item {
+    &_item {
         margin-right: 40px;
         text-transform: lowercase;
         font-size: 15px;
@@ -50,11 +50,11 @@
         transition: all 0.2s ease-in-out;
     }
 
-    &-item:hover {
+    &_item:hover {
         color: rgba(107, 154, 114, 1);
     }
 
-    &-item:last-child {
+    &_item:last-child {
         margin-right: 0;
     }
 }
