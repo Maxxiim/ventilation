@@ -1,0 +1,106 @@
+.feedback {
+    position: relative;
+    padding-left: 156px;
+    margin-top: 143px;
+    padding-top: 55px;
+    padding-bottom: 57px;
+    background-color: rgba(217, 250, 221, 1);
+    margin-bottom: 300px;
+
+    &_linebg {
+        position: absolute;
+        left: 35px;
+        top: 33px;
+        padding: 0;
+        margin: 0;
+    }
+
+    &_ventibg {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 10px;
+        right: 5px;
+    }
+
+
+    &_title {
+        letter-spacing: 0.1px;
+        margin-left: 10px;
+        margin-bottom: 38px;
+        max-width: 731px;
+        font-size: 35px;
+        line-height: 45px;
+        font-family: "ruberoid", sans-serif;
+        color: rgba(73, 94, 76, 1);
+        padding: 0;
+        margin-top: 0;
+    }
+
+    &__form {
+        z-index: 10;
+        display: flex;
+        align-items: center;
+        margin-left: 4px;
+    }
+
+    &_name::placeholder,
+    &_phone::placeholder {
+        color: rgba(124, 163, 129, 1);
+
+    }
+
+    &_name:focus,
+    &_phone:focus {
+        outline: none;
+    }
+
+    &_name,
+    &_phone {
+        min-width: 290px;
+        border: none;
+        font-size: 14px;
+        line-height: 17px;
+        font-weight: 400;
+        font-family: proxima nova, sans-serif;
+        padding-top: 20px;
+        padding-left: 18px;
+        padding-bottom: 20px;
+        border-radius: 15px;
+        color: rgba(124, 163, 129, 1);
+        background-color: rgba(255, 255, 255, 1);
+    }
+
+    &_name {
+        margin-right: 30px;
+    }
+
+    &_phone {
+        margin-right: 66px;
+    }
+}
+
+.btn_feedback {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    background-color: rgba(156, 211, 163, 1);
+    width: 209px;
+    height: 55px;
+    border-radius: 17px;
+    padding: 19px 50px 15px 55px;
+    color: #fff;
+    border: none;
+
+    &::before {
+        content: "";
+        display: block;
+        position: absolute;
+        border-radius: 25px;
+        top: -9px;
+        left: -9px;
+        width: 228px;
+        height: 73px;
+        border: 10px solid rgba(34, 111, 33, 0.36);
+        opacity: 25%;
+    }
+}

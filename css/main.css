@@ -86,6 +86,7 @@
   width: 208px;
   height: 75px;
   border: 10px solid rgba(255, 255, 255, 0.45);
+  opacity: 45%;
 }
 
 .main {
@@ -157,8 +158,8 @@
   color: #7CA381;
 }
 .main__contacts {
-  margin-top: 49px;
-  margin-left: 8px;
+  margin-top: 54px;
+  margin-left: 13px;
   display: flex;
 }
 .main__contacts-street, .main__contacts-call {
@@ -488,7 +489,6 @@
 
 .steps {
   margin-left: 174px;
-  margin-bottom: 300px;
 }
 .steps__wrapper {
   display: flex;
@@ -605,4 +605,99 @@
   position: absolute;
   top: 26px;
   right: 24px;
+}
+
+.feedback {
+  position: relative;
+  padding-left: 156px;
+  margin-top: 143px;
+  padding-top: 55px;
+  padding-bottom: 57px;
+  background-color: rgb(217, 250, 221);
+  margin-bottom: 300px;
+}
+.feedback_linebg {
+  position: absolute;
+  left: 35px;
+  top: 33px;
+  padding: 0;
+  margin: 0;
+}
+.feedback_ventibg {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 10px;
+  right: 5px;
+}
+.feedback_title {
+  letter-spacing: 0.1px;
+  margin-left: 10px;
+  margin-bottom: 38px;
+  max-width: 731px;
+  font-size: 35px;
+  line-height: 45px;
+  font-family: "ruberoid", sans-serif;
+  color: rgb(73, 94, 76);
+  padding: 0;
+  margin-top: 0;
+}
+.feedback__form {
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  margin-left: 4px;
+}
+.feedback_name::-moz-placeholder, .feedback_phone::-moz-placeholder {
+  color: rgb(124, 163, 129);
+}
+.feedback_name::placeholder, .feedback_phone::placeholder {
+  color: rgb(124, 163, 129);
+}
+.feedback_name:focus, .feedback_phone:focus {
+  outline: none;
+}
+.feedback_name, .feedback_phone {
+  min-width: 290px;
+  border: none;
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 400;
+  font-family: proxima nova, sans-serif;
+  padding-top: 20px;
+  padding-left: 18px;
+  padding-bottom: 20px;
+  border-radius: 15px;
+  color: rgb(124, 163, 129);
+  background-color: rgb(255, 255, 255);
+}
+.feedback_name {
+  margin-right: 30px;
+}
+.feedback_phone {
+  margin-right: 66px;
+}
+
+.btn_feedback {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  background-color: rgb(156, 211, 163);
+  width: 209px;
+  height: 55px;
+  border-radius: 17px;
+  padding: 19px 50px 15px 55px;
+  color: #fff;
+  border: none;
+}
+.btn_feedback::before {
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 25px;
+  top: -9px;
+  left: -9px;
+  width: 228px;
+  height: 73px;
+  border: 10px solid rgba(34, 111, 33, 0.36);
+  opacity: 25%;
 }/*# sourceMappingURL=main.css.map */
