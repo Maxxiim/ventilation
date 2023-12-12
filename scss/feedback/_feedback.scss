@@ -5,9 +5,9 @@
     padding-top: 55px;
     padding-bottom: 57px;
     background-color: rgba(217, 250, 221, 1);
-    margin-bottom: 300px;
 
     &_linebg {
+        user-select: none;
         position: absolute;
         left: 35px;
         top: 33px;
@@ -16,6 +16,7 @@
     }
 
     &_ventibg {
+        user-select: none;
         margin: 0;
         padding: 0;
         position: absolute;
