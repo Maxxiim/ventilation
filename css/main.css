@@ -927,6 +927,16 @@
 }
 .comfort__block {
   display: flex;
+  position: relative;
+}
+.comfort__block_shadow {
+  position: absolute;
+  top: 0;
+  right: -87px;
+  filter: blur(154px);
+  width: 618px;
+  height: 618px;
+  background-color: rgb(186, 255, 195);
 }
 .comfort__block_left, .comfort__block_right {
   display: flex;

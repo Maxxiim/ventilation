@@ -99,6 +99,17 @@
 
     &__block {
         display: flex;
+        position: relative;
+    }
+
+    &__block_shadow {
+        position: absolute;
+        top: 0;
+        right: -87px;
+        filter: blur(154px);
+        width: 618px;
+        height: 618px;
+        background-color: rgba(186, 255, 195, 1);
     }
 
     &__block_left,
